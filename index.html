@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Vinay Kanakadandila is a senior software engineer specializing in distributed backend systems, AWS cloud platforms, and AI workflow automation."
+    />
+    <title>Vinay Kanakadandila | Senior Software Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Vinay Kanakadandila home">
+        <span class="brand-mark">VK</span>
+        <span>Vinay Kanakadandila</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Senior Software Engineer</p>
+          <h1>Building distributed systems and AI agents that operate reliably at production scale.</h1>
+          <p class="hero-text">
+            I am a backend and cloud engineer in Austin, TX with 10+ years of experience at Amazon
+            and Oracle Health. I build scalable microservices, AWS infrastructure, high-throughput
+            data systems, and practical AI/ML workflows that turn operational complexity into
+            reliable software.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="assets/VinayKanakadandila2026Resume.pdf">Download Resume</a>
+          </div>
+        </div>
+        <aside class="profile-card" aria-label="Profile summary">
+          <img
+            class="profile-photo"
+            src="https://avatars.githubusercontent.com/u/248369470?v=4"
+            alt="Vinay Kanakadandila GitHub profile image"
+          />
+          <div>
+            <p class="availability">
+              <span class="status-dot" aria-hidden="true"></span>
+              Open to senior backend, platform, and AI automation roles
+            </p>
+            <dl class="quick-facts">
+              <div>
+                <dt>Current</dt>
+                <dd>Software Development Engineer, Amazon</dd>
+              </div>
+              <div>
+                <dt>Core strength</dt>
+                <dd>AWS microservices and distributed systems</dd>
+              </div>
+              <div>
+                <dt>Location</dt>
+                <dd>Austin, TX</dd>
+              </div>
+            </dl>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section intro" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">Backend systems that stay clear under real-world load.</h2>
+        </div>
+        <p>
+          My work spans distributed configuration tracking for warehouse network devices, healthcare
+          revenue cycle platforms, API performance optimization, observability, and AI-assisted
+          decision systems. I am strongest where backend architecture, operational discipline, and
+          product usefulness have to meet.
+        </p>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <h2 id="projects-title">Production Systems & AI Platforms</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured-project">
+            <img
+              class="project-media project-image"
+              src="assets/polybtc/architecture.webp"
+              alt="PolyBTC-Agent architecture diagram showing market interfaces, runtime orchestration, AI logic, risk state, observability, alerts, and external services."
+            />
+            <div class="project-body">
+              <p class="project-type">Autonomous AI system</p>
+              <h3>PolyBTC-Agent</h3>
+              <p>
+                Built an autonomous AI trading platform that combines Claude reasoning with
+                quantitative momentum and mean-reversion strategies. The system is engineered for
+                reliable autonomous operation with Kelly-based risk controls, hard circuit
+                breakers, dry-run execution, observability, and containerized deployment.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>Python</li>
+                <li>Claude</li>
+                <li>Docker</li>
+                <li>AWS EC2</li>
+                <li>Risk Systems</li>
+              </ul>
+              <div class="project-screenshots" aria-label="PolyBTC-Agent screenshots">
+                <figure>
+                  <img
+                    src="assets/polybtc/positions.webp"
+                    alt="PolyBTC-Agent command output listing current dry-run market positions."
+                  />
+                  <figcaption>Dry-run position inspection</figcaption>
+                </figure>
+                <figure>
+                  <img
+                    src="assets/polybtc/agent-status.webp"
+                    alt="PolyBTC-Agent runtime status showing market cycle, BTC price, bankroll, open positions, and operational notes."
+                  />
+                  <figcaption>Agent cycle and status output</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card featured-project">
+            <div class="project-media job-agent" aria-hidden="true"></div>
+            <div class="project-body">
+              <p class="project-type">NLP workflow automation</p>
+              <h3>AIJobSearchAgent</h3>
+              <p>
+                Built a Python workflow automation system that processes 1000+ job postings across
+                Remotive, ArbeitNow, and optional SerpAPI data, then ranks matches against resume
+                text using TF-IDF cosine similarity. The pipeline produces timestamped Excel
+                reports and SMTP delivery for repeatable daily search operations.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>Python</li>
+                <li>TF-IDF</li>
+                <li>APIs</li>
+                <li>Excel</li>
+                <li>SMTP</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/vkanakad/AIJobSearchAgent">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card featured-project">
+            <div class="project-media deadline-tool" aria-hidden="true"></div>
+            <div class="project-body">
+              <p class="project-type">Python CLI product</p>
+              <h3>DeadlineHQ</h3>
+              <p>
+                Created a tested Python automation product for deadline tracking, reminders, daily
+                status emails, backup storage, structured logging, and searchable task workflows.
+                The CLI supports configurable email providers, validation, automated backups, and a
+                complete pytest suite.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>Python</li>
+                <li>CLI</li>
+                <li>Pytest</li>
+                <li>Email APIs</li>
+                <li>Automation</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/vkanakad/deadlinehq">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section split" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">Production engineering background</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <p class="timeline-date">2021 - Present</p>
+            <h3>Software Development Engineer, Amazon</h3>
+            <p>
+              Designed a distributed configuration-tracking platform supporting 200K+ warehouse
+              network devices and large-scale deployment auditing through automated diff analysis.
+              Improved database access patterns, caching, p99 latency, CloudWatch metrics,
+              structured logging, and dashboards for high-volume operational workflows.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">2015 - 2021</p>
+            <h3>Software Engineer, Oracle Health</h3>
+            <p>
+              Spearheaded development of the Registration component for RevenueCycle, supporting
+              500+ healthcare organizations. Reduced transaction latency by 25% through SQL query
+              optimization and connection pooling in a reliability- and compliance-sensitive
+              environment.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">2014 - 2015</p>
+            <h3>Junior Java Developer, Equity Trust Company</h3>
+            <p>
+              Built and maintained Java application features while developing a foundation in
+              enterprise software delivery, backend services, and production support.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">Toolkit</p>
+          <h2 id="skills-title">Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div>
+            <h3>Distributed Systems</h3>
+            <p>Microservices, event-driven architecture, async processing, caching, API design</p>
+          </div>
+          <div>
+            <h3>Cloud Infrastructure</h3>
+            <p>Lambda, DynamoDB, EC2, SNS, API Gateway, CloudFormation, CDK, S3, Glue, Athena</p>
+          </div>
+          <div>
+            <h3>Backend Platforms</h3>
+            <p>Java, Python, Kotlin, SQL, Spring Boot, FastAPI, REST APIs, performance tuning</p>
+          </div>
+          <div>
+            <h3>AI Systems</h3>
+            <p>LLM workflows, NLP, TF-IDF, recommendation systems, prompt engineering, decision systems</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education" aria-labelledby="education-title">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2 id="education-title">Academic background</h2>
+        </div>
+        <div class="education-grid">
+          <article>
+            <h3>University of Houston</h3>
+            <p>Master of Science, Electrical and Computer Engineering, 2014</p>
+          </article>
+          <article>
+            <h3>Jawaharlal Nehru Technological University</h3>
+            <p>Bachelor of Technology, Electrical and Computer Engineering, 2012</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let’s build reliable systems.</h2>
+          <p>
+            I am interested in senior backend, platform, distributed systems, cloud infrastructure,
+            and AI workflow automation opportunities.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:Vinay.vn385@gmail.com">Vinay.vn385@gmail.com</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/vkadroit/">LinkedIn</a>
+          <a class="button secondary" href="https://github.com/vkanakad">GitHub</a>
+          <a class="button secondary" href="assets/VinayKanakadandila2026Resume.pdf">Resume</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Vinay Kanakadandila. Senior Software Engineer in Austin, TX.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
