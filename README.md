@@ -13,6 +13,7 @@ Past ChatGPT conversations are not available to this workspace unless exported o
 
 ## Included Projects
 
+- DeployIQ
 - PolyBTC-Agent
 - AIJobSearchAgent
 - DeadlineHQ

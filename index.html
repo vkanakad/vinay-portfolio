@@ -130,6 +130,52 @@
           <h2 id="projects-title">Production Systems & AI Platforms</h2>
         </div>
         <div class="project-grid">
+          <article class="project-card featured-project deployiq-project">
+            <img
+              class="project-media project-image"
+              src="assets/deployiq/deadlinehqanalyzer.png"
+              alt="DeployIQ analyzing a DeadlineHQ encryption commit and identifying a high deployment risk score."
+            />
+            <div class="project-body">
+              <p class="project-type">Deployment intelligence platform</p>
+              <h3>DeployIQ</h3>
+              <p>
+                Built an event-driven deployment risk analyzer that scores GitHub commits before
+                production rollout. The platform detects database, configuration, CI/CD, security,
+                dependency, and deletion risk signals, then explains each score through a live public
+                analyzer. The backend uses durable event consumption, PostgreSQL risk persistence,
+                health and readiness checks, and automated unit and integration testing.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>Go</li>
+                <li>PostgreSQL</li>
+                <li>pgvector</li>
+                <li>NATS JetStream</li>
+                <li>Docker</li>
+                <li>GitHub Actions</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://vkanakad.github.io/DeployIQ/">Live Demo</a>
+              </div>
+              <div class="project-screenshots" aria-label="DeployIQ risk analysis examples">
+                <figure>
+                  <img
+                    src="assets/deployiq/deadlinehqanalyzer.png"
+                    alt="DeployIQ high-risk analysis showing detected configuration, CI/CD, security, dependency, and production risk."
+                  />
+                  <figcaption>High-risk encryption commit</figcaption>
+                </figure>
+                <figure>
+                  <img
+                    src="assets/deployiq/applelatestcommit.png"
+                    alt="DeployIQ low-risk analysis of an Apple Container commit."
+                  />
+                  <figcaption>Low-risk Apple Container commit</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+
           <article class="project-card featured-project">
             <img
               class="project-media project-image"
